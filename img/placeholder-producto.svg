@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="tituloProducto descProducto">
+  <title id="tituloProducto">Imagen provisional de producto</title>
+  <desc id="descProducto">Espacio reservado para incorporar la fotografía definitiva del producto.</desc>
+
+  <defs>
+    <pattern id="trama" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="26" stroke="#E4D2C3" stroke-width="1"/>
+      <line x1="0" y1="0" x2="26" y2="0" stroke="#E4D2C3" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="600" fill="#F4EAE0"/>
+  <rect width="800" height="600" fill="url(#trama)" opacity=".45"/>
+  <rect x="26" y="26" width="748" height="548" rx="22" fill="none" stroke="#D8C2B3" stroke-width="1.5" stroke-dasharray="6 8"/>
+
+  <g fill="none" stroke="#B9898C" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="338" y="176" width="124" height="16" rx="8" fill="#DCC0C0"/>
+    <rect x="338" y="328" width="124" height="16" rx="8" fill="#DCC0C0"/>
+    <rect x="358" y="192" width="84" height="136" rx="7" fill="#FBF3EE" stroke-width="2"/>
+    <path d="M366 207h68M366 227h68M366 247h68M366 267h68M366 287h68M366 307h68" stroke="#D9AFB1" stroke-width="5" opacity=".7"/>
+    <path d="M452 316c30 6 38 34 64 38 20 3 36-7 50-20" stroke="#B9898C" stroke-width="2" stroke-dasharray="4 7"/>
+    <circle cx="580" cy="334" r="11" fill="#F8E7E5" stroke-width="2"/>
+    <circle cx="576" cy="330" r="1.6" fill="#B9898C" stroke="none"/>
+    <circle cx="584" cy="330" r="1.6" fill="#B9898C" stroke="none"/>
+    <circle cx="576" cy="338" r="1.6" fill="#B9898C" stroke="none"/>
+    <circle cx="584" cy="338" r="1.6" fill="#B9898C" stroke="none"/>
+  </g>
+
+  <g fill="#FDFAF6" stroke="#DFCBBD" stroke-width="1">
+    <rect x="46" y="46" width="214" height="34" rx="17"/>
+  </g>
+  <text x="62" y="68" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="2.6" fill="#9E6266">IMAGEN PROVISIONAL</text>
+
+  <text x="400" y="408" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="31" fill="#7C4A4F">Fotografía próximamente</text>
+  <text x="400" y="440" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" letter-spacing=".8" fill="#8E7A72">Espacio reservado para la imagen definitiva del producto</text>
+</svg>
